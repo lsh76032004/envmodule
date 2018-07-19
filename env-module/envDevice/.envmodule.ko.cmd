@@ -1,0 +1,1 @@
+cmd_/root/kernel/project/env-module/envDevice/envmodule.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /root/kernel/project/env-module/envDevice/envmodule.ko /root/kernel/project/env-module/envDevice/envmodule.o /root/kernel/project/env-module/envDevice/envmodule.mod.o ;  true
